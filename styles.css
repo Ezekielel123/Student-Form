@@ -1,0 +1,118 @@
+body { width: 100%;
+    height: auto;
+    margin: 0;
+    background: url(https://wallpapers.com/images/hd/anime-school-background-dh3ommnxthw4nln7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1, p { font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.wrapper { width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16.5px;
+}
+
+fieldset { border: none;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+fieldset:last-of-type{ border-bottom: none;
+    margin-bottom: -10px;
+}
+
+label { display: block;
+    margin: 1%;
+    text-align: justify;
+}
+
+input[type="text"] { width: 350px;
+    background-color: rgb(59, 58, 57);
+    height: 25px;
+    color: #fff;
+    padding: 3px;
+}
+
+input[type="email"] { width: 350px;
+    background-color: rgb(59, 58, 57);
+    height: 25px;
+    color: #fff;
+    padding: 3px;
+}
+
+input[type="number"] { width: 350px;
+    background-color: rgb(59, 58, 57);
+    height: 25px;
+    color: #fff;
+    padding: 3px;
+}
+
+input[type="radio"] { height: 17px;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 30%;
+}
+
+input[type="checkbox"] { height: 17px;
+    position: absolute;
+    left: 30%;
+}
+
+input[type="submit"] { height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 15.5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wrapper textarea {background-color: rgb(59, 58, 57);
+    color: #fff;
+    width: 450px;
+    padding: 5px 10px 0px 10px;
+    margin-top: 15px;
+}
+
+select { background-color: rgb(59, 58, 57);
+    color: #fff;
+    padding: 3px;
+}
+
+.wrapper input { width: 100%;
+}
+
+.wrapper select {width: 250px;
+    height: 25px;
+}
+
+.wrapper gender-label { position: relative;
+}
+
+.wrapper legend {text-align: center;
+    font-size: 18px;
+}
+.wrapper p { text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
