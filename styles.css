@@ -88,8 +88,8 @@ input[type="submit"] { height: 35px;
 
 .wrapper textarea {background-color: rgb(59, 58, 57);
     color: #fff;
-    width: 300px;
-    padding: 5px;
+    width: 400px;
+    padding: 10px;
     margin-top: 15px;
 }
 
